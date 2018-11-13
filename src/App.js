@@ -4,6 +4,7 @@ import './stylesheets/App.css';
 
 import Technologies from './javascripts/technologies.jsx';
 import Projects from './javascripts/projects.jsx';
+import HardwarePrototypingPreview from './javascripts/hardware_prototyping_preview.jsx';
 
 class App extends Component {
   render() {
@@ -47,13 +48,7 @@ class App extends Component {
           </section>
 
 					<section id="three" class="wrapper style2 fade-up">
-            <div class="inner">
-              <h2>Hardware prototyping</h2>
-              <p>Always iterating toward a better product, whether it's laser cutting, arduino, or lighting design. </p>
-              <ul class="actions">
-                <li><a href="hardware_prototyping.html" class="button">Learn more</a></li>
-              </ul>
-            </div>
+            <HardwarePrototypingPreview />
           </section>
 
 					<section id="four" class="wrapper style1 fade-up">
