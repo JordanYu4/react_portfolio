@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './stylesheets/App.css';
 
+import Intro from './javascripts/intro.jsx';
+import ProjectsPreview from './javascripts/projects_preview.jsx';
 import Technologies from './javascripts/technologies.jsx';
-import Projects from './javascripts/projects.jsx';
 import HardwarePrototypingPreview from './javascripts/hardware_prototyping_preview.jsx';
 import Contact from './javascripts/contact.jsx';
 
@@ -27,21 +28,10 @@ class App extends Component {
 
 			  <div id="wrapper">
 
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-            <div class="inner">
-              <h1>Jordan Yu</h1>
-              <p>
-                I've always enjoyed building tools to help people get things done, and I find a natural outlet for that drive in software
-								engineering. I'm avid about organization, acutely detail oriented, and always looking for ways to increase efficiency.
-							</p>
-              <ul class="actions">
-                <li><a href="#one" class="button scrolly">Learn more</a></li>
-              </ul>
-            </div>
-          </section>
+					<Intro />
 
 					<section id="one" class="wrapper style2 spotlights">
-            <Projects />
+            <ProjectsPreview />
           </section>
 
 					<section id="two" class="wrapper style3 fade-up">
@@ -55,13 +45,12 @@ class App extends Component {
 					<section id="four" class="wrapper style1 fade-up">
             <Contact />
           </section>
-
         </div>
 
         <footer id="footer" class="wrapper style1-alt">
           <div class="inner">
             <ul class="menu">
-              <li>&copy; Jordan Yu. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+              <li>&copy; Jordan Yu. All rights reserved.</li>
             </ul>
           </div>
         </footer>
