@@ -53,7 +53,6 @@ class App extends Component {
               <ul class="actions">
                 <li><a href="hardware_prototyping.html" class="button">Learn more</a></li>
               </ul>
-
             </div>
           </section>
 
