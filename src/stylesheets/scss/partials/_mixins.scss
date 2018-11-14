@@ -39,3 +39,29 @@
 	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
 
 }
+
+// Via The-Net-Ninja
+@mixin grid($cols, $mgn) {
+  float: left; 
+  margin-bottom: $mgn;
+  margin-right: $mgn; 
+  width: ((100% - (($cols - 1) * $mgn)) / $cols);
+  &:nth-child(#{$cols}n){
+    margin-right: 0;
+  }
+}
+
+// Via The-Net-Ninja
+@mixin mediaQuery($arg...){
+  @if length($arg) == 1 {
+    @media screen and (max-width: nth($arg, 1)){
+      @content;
+    }
+  }
+  @if length($arg) == 2 {
+    @media screen and (max-width: nth($arg, 1)) 
+      and (min-width: nth($arg, 2)) {
+        @content;
+      } 
+  }
+}
