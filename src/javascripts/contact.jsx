@@ -12,7 +12,16 @@ const Contact = () => (
               class="button"
             >
               Download Resume
-											</a>
+						</a>
+          </li>
+          <li>
+            <a href="mailto:jordanyu44@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button"
+            >
+              Let's connect!
+            </a>
           </li>
           <li>
             <h3>Phone</h3>
