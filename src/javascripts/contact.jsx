@@ -24,14 +24,16 @@ const Contact = () => (
               <li>
                 <a href="https://github.com/JordanYu4"
                   class="fa-github"
-                  target="_blank">
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <span class="label">GitHub</span>
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/jordan-yu-4400/"
                   class="fa-linkedin"
-                  target="_blank">
+                  target="_blank"
+                  rel="noopener noreferrer">
                   <span class="label">LinkedIn</span>
                 </a>
               </li>
