@@ -16,7 +16,7 @@ const ProjectsPreview = () => {
             <ul className="actions">
               {/* <!-- <li><a href="projects.html" className="button">Learn more</a></li> --> */}
               <li><a href={expUrl}
-                className="button" target="_blank" rel="noopener noreferrer">Live site</a></li>
+                className="button" target="_blank" rel="noreferrer noopener">Live site</a></li>
             </ul>
           </div>
         </div>
@@ -30,7 +30,7 @@ const ProjectsPreview = () => {
             <ul className="actions">
               {/* <!-- <li><a href="projects.html" className="button">Learn more</a></li> --> */}
               <li><a href={yelpHelperUrl}
-                className="button" target="_blank rel="noopener noreferrer>Live site</a></li>
+                className="button" target="_blank" rel="noreferrer noopener">Live site</a></li>
             </ul>
           </div>
         </div>
@@ -44,7 +44,7 @@ const ProjectsPreview = () => {
             <ul className="actions">
               {/* <!-- <li><a href="projects.html" className="button">Learn more</a></li> --> */}
               <li><a href={gylioUrl}
-                className="button" target="_blank rel="noopener noreferrer>Live site</a></li>
+                className="button" target="_blank" rel="noreferrer noopener">Live site</a></li>
             </ul>
           </div>
         </div>

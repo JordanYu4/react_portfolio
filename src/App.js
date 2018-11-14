@@ -19,19 +19,19 @@ class App extends Component {
 			  <div id="wrapper">
 					<Intro />
 
-					<section id="one" class="wrapper style2 spotlights">
+					<section id="one" className="wrapper style2 spotlights">
             <ProjectsPreview />
           </section>
 
-					<section id="two" class="wrapper style3 fade-up">
+					<section id="two" className="wrapper style3 fade-up">
             <Technologies />
           </section>
 
-					<section id="three" class="wrapper style2 fade-up">
+					<section id="three" className="wrapper style2 fade-up">
             <HardwarePrototypingPreview />
           </section>
 
-					<section id="four" class="wrapper style1 fade-up">
+					<section id="four" className="wrapper style1 fade-up">
             <Contact />
           </section>
         </div>
