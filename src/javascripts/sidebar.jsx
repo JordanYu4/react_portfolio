@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sidebar = () => (
   <section id="sidebar">
-    <div class="inner">
+    <div className="inner">
       <nav>
         <ul>
           <li><a href="#intro">Welcome</a></li>

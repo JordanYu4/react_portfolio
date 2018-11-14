@@ -237,4 +237,21 @@ hr.major {
   text-align: right;
 }
 
+input[type=submit],
+input[type=reset],
+input[type=button],
+button,
+.button {
+  background-color: transparent;
+  border: solid 1px;
+  border-color: rgba(255, 255, 255, 0.15);
+  border-radius: 3em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#sidebar {
+  background: #39393a;
+}
+
 /*# sourceMappingURL=main.css.map */

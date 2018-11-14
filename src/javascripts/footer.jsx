@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer id="footer" class="wrapper style1-alt">
-    <div class="inner">
-      <ul class="menu">
+  <footer id="footer" className="wrapper style1-alt">
+    <div className="inner">
+      <ul className="menu">
         <li>&copy; Jordan Yu. All rights reserved.</li>
       </ul>
     </div>
