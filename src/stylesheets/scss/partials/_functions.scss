@@ -1,6 +1,3 @@
-/// @param {string} $keys Key(s)
-/// @return {string} Value
-
 /// Gets a value from a map. 
 /// @author Hugo Giraudel 
 /// @param {map} $map Map
@@ -18,4 +15,16 @@
 
 @function _palette($keys...) {
   @return val($palette, $keys...);
+}
+
+@function _font($keys...) {
+  @return val($font, $keys...);
+}
+
+@function _size($keys...) {
+  @return val($size, $keys...);
+}
+
+@function _duration($keys...) {
+  @return val($size, $keys...);
 }

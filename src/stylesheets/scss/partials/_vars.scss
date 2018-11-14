@@ -14,15 +14,23 @@ $size: (
 );
 
 $font: (
-  family:       (Avenir),
-  weight:       400,
+  family:       (Avenir, sans-serif),
+  family-fixed: ('Courier New', monospace),
+  weight-reg:   400,
   weight-bold:  700, 
   kerning-alt:  0.25
 );
 
 $palette: (
-  bg: #05111D, 
-  accent-font: #00a5b5,
+  bg:           #05111D, 
+  accent-font:  #00a5b5,
 
-  slate-grey: #39393a
+  slate-grey:   #39393a,
+
+  fg:           rgba(255, 255, 255, 0.5),
+  fg-bold:      #ffffff,
+  fg-light:     rgba(255, 255, 255, 0.3),
+
+  border:       rgba(255, 255, 255, 0.15)
+  border-bg:    rgba(255, 255, 255, 0.05)
 );
