@@ -15,12 +15,13 @@ const Contact = () => (
 						</a>
           </li>
           <li>
+            <h3>Let's connect!</h3>
             <a href="mailto:jordanyu44@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="button"
             >
-              Let's connect!
+              Email
             </a>
           </li>
           <li>

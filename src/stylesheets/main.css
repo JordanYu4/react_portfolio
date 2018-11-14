@@ -237,6 +237,13 @@ hr.major {
   text-align: right;
 }
 
+#sidebar {
+  background: #39393a;
+}
+#sidebar a {
+  text-transform: uppercase;
+}
+
 input[type=submit],
 input[type=reset],
 input[type=button],
@@ -248,10 +255,6 @@ button,
   border-radius: 3em;
   color: #ffffff;
   cursor: pointer;
-}
-
-#sidebar {
-  background: #39393a;
 }
 
 /*# sourceMappingURL=main.css.map */

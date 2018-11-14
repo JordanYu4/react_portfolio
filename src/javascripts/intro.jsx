@@ -5,9 +5,9 @@ const Intro = () => (
     <div className="inner">
       <h1>Jordan Yu</h1>
       <p>
-        I've always enjoyed building tools to help people get things done, and I find a natural outlet for that drive in software
-        engineering. I'm avid about organization, acutely detail oriented, and always looking for ways to increase efficiency.
-			</p>
+        Full-stack web developer and maker based in Berkeley.<br/>
+        Thanks for checking out what I've been up to!
+      </p>
       <ul className="actions">
         <li><a href="#one" className="button scrolly">Learn more</a></li>
       </ul>
